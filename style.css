@@ -49,6 +49,10 @@ section{
     border-radius: 10px;
     box-shadow: rgb(38,57,77) 5px 20px 30px -5px ;
 }
+
+#remote{
+    text-align: right;
+}
 strong{
     font-size: large;
 }
