@@ -1,0 +1,59 @@
+*{
+    
+    color: rgb(217,198 ,178);
+    font-family: 'Times New Roman', Times, serif;
+}
+html{
+    background-color: black;
+}
+.name{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    font-size: larger;
+  
+}
+
+div > a{
+    text-decoration: none;
+}
+
+.gitimg , .lgmail{
+    background-color: white;
+    width: 20px;
+    height: 20px;
+}
+
+main{
+    background-color: blueviolet;
+}
+section > h4{
+    font-size: large;
+    padding-left: 2px;
+    border-left: solid 4px blue;
+}
+
+
+section{
+    
+    background-color: rgb(23,23,23);
+
+    border: solid violet 2px;
+    margin: 15px;
+    padding-left: 20px;
+    padding-right: 30px;
+    border-radius: 10px;
+    box-shadow: rgb(38,57,77) 5px 20px 30px -5px ;
+}
+strong{
+    font-size: large;
+}
+
+footer{
+    text-align: center;
+    text-decoration: underline;
+}
