@@ -15,6 +15,7 @@ nav{
     display: flex;
     justify-content: space-around;
     font-size: larger;
+    overflow-wrap: normal;
   
 }
 
@@ -22,7 +23,17 @@ div > a{
     text-decoration: none;
 }
 
-.gitimg , .lgmail{
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+
+.gitimg  {
     background-color: white;
     width: 20px;
     height: 20px;
@@ -35,6 +46,12 @@ section > h4{
     font-size: large;
     padding-left: 2px;
     border-left: solid 4px blue;
+}
+
+.wpara {
+    display: inline-block;
+   width: 100px;
+
 }
 
 
