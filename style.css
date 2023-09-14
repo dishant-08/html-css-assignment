@@ -1,7 +1,7 @@
 *{
     
     color: rgb(217,198 ,178);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'DM Sans' ,'Times New Roman', Times, serif;
 }
 html{
     background-color: black;
@@ -9,7 +9,10 @@ html{
 .name{
     text-align: center;
     text-transform: uppercase;
-    font-size: 3rem;
+    font-size: 3.5rem;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 nav{
     display: flex;
@@ -40,13 +43,19 @@ div > a{
 }
 
 main{
-    background-color: violet;
+    background-color: rgb(240, 245 ,242);
 }
 section > h4{
     font-size: large;
-    padding-left: 2px;
-    border-left: solid 4px blue;
+    padding-left: 8px;
+    border-left: solid 4px violet;
 }
+
+.skills{
+    line-height: 0.01rem;
+}
+
+
 
 .wpara {
     display: inline-block;
@@ -60,7 +69,7 @@ section{
     
     background-color: rgb(23,23,23);
 
-    border: solid violet 2px;
+    border: solid gray 2px;
     margin: 15px;
     padding-left: 20px;
     padding-right: 30px;
