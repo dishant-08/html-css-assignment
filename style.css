@@ -51,6 +51,7 @@ section > h4{
 .wpara {
     display: inline-block;
    width: 100px;
+   font-size: large;
 
 }
 
